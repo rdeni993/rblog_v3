@@ -1,2 +1,6 @@
 logs/
 restaurant
+application/config/config.php
+application/config/database.php 
+assets/js/config.js
+index.php
