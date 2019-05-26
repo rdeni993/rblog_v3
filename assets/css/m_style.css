@@ -1,0 +1,128 @@
+/**
+*
+*	This is basic blog style 
+*	only for mobile devices..
+*
+*/
+
+@media only screen and ( max-width: 736px ) {
+
+/* All items hidden for desktops */
+/* will be shown now */
+.desktop-hidden{
+	display: inline-block;
+}
+
+/* Menu design */
+.main-menu{
+	display: none;
+}
+.bottom-menu{
+	display: none;
+}
+.bottom-menu p,
+.bottom-menu h6{
+	display: none;
+}
+.mobile-menu{
+	position: fixed;
+	bottom: 0px;
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.97;
+	z-index: 999;
+	width: 100%!important;
+}
+.mobile-menu ul{
+	padding: 0;
+	margin: 0;
+	width: 100%!important;
+}
+.mobile-menu ul > li{
+	list-style: none;
+	display: inline-block;
+	padding: 12px 0;
+	margin: 0;
+	width: 24%!important;
+	border: none;
+	text-align: center;
+	font-size: 1.7em;
+}
+.mobile-menu ul li > a{
+	color: #fff;
+	outline: none;
+}
+.mobile-menu ul li > a:active{
+	color: #fff;
+	outline: none;
+}
+.mobile-menu ul li > a:visited{
+	color: #fff;
+	outline: none;
+}
+.right-side{
+	overflow: hidden;
+	height: auto;
+	padding-bottom: 100px;
+}
+.h-100{
+	position: relative;
+	height: 80px;
+}
+.login-bar-menu{
+	display: none;
+}
+.blog-posts{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	margin-top: 50px;
+}
+.blog-posts article{
+	padding: 16px;
+	margin: 0;
+}
+.post-present{
+	padding: 16px;
+}
+.login-box{
+	margin: 0px;
+	margin-top: 50px;
+}
+.login-box a{
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.login-box input{
+	width: 200px;
+}
+.mobile-select{
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	z-index: 900;
+	width: 100%;
+	overflow-y: auto;
+}
+.mobile-select ul{
+	width: 90%;
+	padding: 5%;
+	margin: 5%;
+},
+.mobile-select ul li{
+	padding:  0;
+}
+.main-menu-mobile{
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+}

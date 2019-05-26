@@ -1,0 +1,340 @@
+/**
+*
+*	This is basic style script
+*	for blog.
+*
+*	This will be used together with bootstrap
+*	files..
+*
+*
+*/
+.desktop-hidden{
+	display: none;
+}
+.m-font{
+	font-family: 'Baloo Thambi', cursive;
+}
+.m-font-groove{
+	font-family: 'Noto Sans', cursive;
+	font-size: 1em;
+}
+.b-font{
+	font-family: 'Noto Sans', sans-serif;
+}
+.c-font{
+	font-family: times;
+}
+.h-100{
+	background: black;
+	height: 100%;
+	position: absolute;
+}
+.container-fluid{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+.left-side,
+.right-side{
+	height: 100%;
+	background: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.right-side{
+	background: #fff;
+	overflow-y: scroll;
+}
+/************/
+.blog-menu{
+	height: 100%;
+	width: 100%!important;
+	padding: 0;
+	margin: 0;
+}
+.button-menu{
+	height: 15%;
+	padding: 0;
+	margin: 0;
+}
+.main-menu{
+	height: 65%;
+	padding: 0;
+	margin: 0;
+}
+.bottom-menu{
+	height: 15%;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+/************/
+.main-menu ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	background: #3b3c3d;
+	padding: 20px 0px;
+	opacity: 0.8;
+	border: 1px solid #888;
+}
+.main-menu ul li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	width: 100%;
+}
+.main-menu ul li a:hover,
+.main-menu ul li:hover{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	background: #3f4042;
+	cursor: pointer;
+}
+.main-menu ul li{
+	padding: 8px;
+	text-transform: uppercase;
+	width: 100%;
+}
+.button-menu button{
+	outline: none;
+	background: none;
+	box-shadow: none;
+	border: none;
+	color: #fff;
+	margin-top: 18px;
+	font-size: 1.2em;
+}
+.btn-empty{
+}
+/****************/
+/*Format Post*/
+/****************/
+.blog-posts{
+	margin-top: 30px;
+}
+.blog-posts article > img{
+	width: 100%;
+}
+.blog-posts article{
+	margin: 15%;
+	border-bottom: 1px solid #ddd;
+}
+.blog-posts article:first-child{
+	margin-top: 0px;
+}
+.blog-posts img{
+	width: 100%;
+	margin-bottom: 12px;
+}
+.blog-posts article a,
+.blog-posts article a:hover{
+	text-decoration: none;
+	color: #686c72;
+}
+.blog-posts article > a h1{
+	font-size: 1.5em!important;
+	margin-bottom: 20px;
+}
+.post-preview h1,
+.post-preview h2,
+.post-preview h3{
+	display: none;
+}
+.blog-posts article div[class='post-preview']{
+	color: #888;
+	text-align: justify;
+}
+.blog-posts article ul{
+	list-style: none;
+	padding: 0;
+	color: #aaa;
+}
+.blog-posts article ul li{
+	display: inline-block;
+}
+.blog-cat-label{
+	background: #e0c091;
+	padding: 4px 8px;
+	font-size: 0.6;
+	color: #fff;
+}
+/****************/
+/* user login */
+/****************/
+.user-login-page ul li{
+	border: 1px solid #eee;
+}
+.login-box{
+	margin: 100px;
+}
+.login-box div{
+	border: 1px solid #fff;
+	padding: 0;
+}
+.login-box .start-div{
+	border-top: 1px solid #e0c091;
+	padding-top: 30px;
+}
+.empty-cell{
+	border: 1px solid #fff!important;
+	color: #fff;
+}
+.login-title{
+	background: #e0c091;
+	color: #fff;
+	font-size: 1em;
+	border: 1px solid #e0c091!important;
+	text-align: center;
+}
+.login-title h1{
+	padding: 4px;
+	margin: 4px;
+	font-size: 1.5em;
+}
+.login-box input{
+	width: 50%;
+	padding: 10px 0;
+	margin: 6px 0;
+}
+.login-box label{
+	margin-top: 18px;
+	margin-bottom: 0px;
+	display: block;
+}
+.login-box input{
+	margin-left: 0;
+	padding: 6px;
+	outline: none;
+	margin: 0;
+}
+.login-box .glyphicon{
+	border: 1px solid #888;
+	padding: 10px;
+	margin: 0;
+}
+.img-avatar{
+	width: 40px!important;
+}
+.avatar-button{
+	border: 3px solid #888;
+	margin: 6px;
+}
+.select-avatars{
+	border-color: red;
+	margin: 12px;
+	padding: 0;
+}
+.locked-post{
+	font-size: 1.4em;
+}
+.post-present article{
+	margin: 15%;
+}
+/**
+*	SEARCH BOX
+*	==========
+*/
+.search-box{
+	border-bottom: 1px solid #fff;
+	padding: 10px 0px;
+}
+.search-box input{
+	border: none;
+	width: 85%;
+	background: none;
+	color: #fff;
+}
+.search-box button{
+	width: 13%;
+}
+
+.post-view ul {
+	margin: 0px;
+	padding: 0px;
+	color: #aaa;
+	list-style: none;
+}
+.post-view ul li {
+	display: inline;
+}
+.login-bar-menu a{
+	color: #888;
+}
+<<<<<<< HEAD
+.user-exists{
+	font-weight: bold;
+	margin-top: 12px;
+	display: none;
+}
+=======
+>>>>>>> 1833af15b69c183c571db5cb8023f379e6e7b86f
+
+/**
+*
+*
+**/
+.login-bar-menu .btn{
+	background: none;
+<<<<<<< HEAD
+}
+
+/**
+*
+*	Main user profile
+*
+*/
+.main_profile_picture{
+	width: 80%;
+	box-shadow: 2px 2px 2px #8a8a8a;
+}
+.main_user_details p{
+}
+.main_user_details .text-muted{
+	margin: 0;
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.main-profile{
+	padding: 0 10%!important;
+}
+
+/***************************/
+/*Cookie*/
+/***************************/
+.cookie-info{
+	background: #000;
+	opacity: 0.95;
+	padding: 20px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #fff;
+	z-index: 1000;
+}
+.cookie-button{
+	background: yellow;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+.check{
+	float: left;
+	width: 100%;
+	display: inline;
+}
+.check input{
+	float: left;
+	width: 10px;
+}
+.check span{
+	margin-left: 30px;
+}
+.accept-warnings{
+	margin-top: 50px;
+	color: red;
+	display: none;
+=======
+>>>>>>> 1833af15b69c183c571db5cb8023f379e6e7b86f
+}

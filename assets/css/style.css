@@ -1,0 +1,154 @@
+/**
+*
+*	This is basic style element for rblog.com
+*	We can use it on entire website..
+*
+*/
+
+.disable-overflow{
+	overflow-x: hidden;
+}
+
+.disable-space{
+	margin: 0px;
+	padding: 0px;
+}
+
+.top-menu,
+.gear-menu{
+	background: #2a4c84;
+	padding: 8px 0;
+	color: #fff;
+}
+
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-color: #2a4c84;
+}
+
+.dashboard{
+	padding: 30px;
+	padding-top: 0;
+}
+.table-clear{ 
+	margin-top: 12px;
+	border: none!important; 
+}
+.table-clear tr{ 
+	border: none!important; 
+	border-top: 2px solid #ddd!important; 
+	border-bottom: 2px solid #ddd!important; 
+	background: #f9f9f9;
+}
+.table-clear tr td{ border: none!important; }
+
+/* Menu */
+
+.left-menu li{
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+}
+
+.left-menu li a{
+	color: #888;
+	text-decoration: none;
+	font-weight: bold;
+}
+.left-menu li a:hover{
+	text-decoration: none;
+	color: #2a4c84;
+}
+.left-menu li .glyphicon{
+	padding: 0 12px 0 0;
+}
+.system-data{
+	color: #2a4c84;
+}
+.post-preview td button{
+	margin: 0 0;
+	padding: 0.4 0;
+	font-size: 0.6em;
+}
+.post-preview tr td span{
+	padding-top: 4px;
+	display: block;
+}
+.post-preview tr td button span{
+	margin: 0;
+	padding: 2px;
+}
+.modal-title{
+	font-weight: bold;
+}
+.file-preview tr td span{
+	padding-top: 4px;
+	display: block;
+}
+.file-preview td button span{
+	margin: 0 0;
+	padding: 0 0;
+	font-size: 1em;
+}
+.hidenUploadButton{
+	display: none!important;
+}
+.myUploadButton{
+	border: 1px solid #8a8a8a;
+	text-decoration: none;
+	padding: 32px;
+	color: #8a8a8a;
+	box-shadow: 2px 2px 2px #8a8a8a;
+	display: block;
+	width: 230px;
+	text-align: center;
+}
+.myUploadButton:hover{
+	color: #8a8a8a;
+	text-decoration: none;
+	cursor: pointer;
+}
+.renameFile{
+	margin-top: 8px;
+}
+.rename-file-form{
+	display: none;
+}
+.file-rename-status,
+.file-rename-f-status,
+.deletePostStatusSuccess,
+.deletePostStatusFailed{
+	display: none;
+}
+.img-preview{
+	width: 21%;
+	padding: 0px;
+	margin: calc( 2% - 4px );
+	display: inline-block;
+}
+.img-preview img{
+	width: 100%;
+	border: 2px solid #eee;
+}
+.featured-image-preview{
+	width: 100%;
+	display: inline-block;
+	margin-bottom: 12px;
+}
+.admin-list-user{
+	margin: 12px 0px;
+}
+.admin-list-user img{
+	width: 80px!important;
+}
+.admin-list-user ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.admin-list-user ul li{
+	color: #aaa;
+}

@@ -1,0 +1,64 @@
+<?php 
+
+/**
+*
+*	Load header file
+*	This file contain all style or js
+*	scripts we have..
+*
+*/
+
+echo $header;
+
+?>
+
+<div class="container-fluid h-100">
+	<div class="col-sm-4 left-side">
+		<div class="blog-menu">
+			<div class="button-menu">
+				<div class="btn-group">
+					<button><span class="glyphicon glyphicon-search"></span></button>
+					<button><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+
+				</div>
+			</div>
+			<div class="main-menu">
+				<ul class="b-font">
+					<li><a href="#">Istorijat racunarstva</a></li>
+					<li><a href="#">Programiranje i jezici</a></li>
+					<li><a href="#">Novosti</a></li>
+					<li><a href="#">Gejming</a></li>
+					<li><a href="#">Pravila koristenja</a></li>
+					<li><a href="#">O Autoru</a></li>
+				</ul>
+			</div>
+			<div class="bottom-menu m-font">
+				<h1>rblog.com</h1>
+				<p>A journey of a thousand miles begins with a single step</p>
+				<h6><small>&copy; All copyrights reserved!</small></h6>
+			</div>
+		</div>
+	</div>
+	<div class="col-sm-8 right-side">
+		<div class="row">
+			<?php echo $login_bar; ?>
+		</div>
+
+		<!-- Page Content -->
+		<!-- Page Content EOF -->
+
+	</div>
+</div>
+
+<?php 
+
+/**
+*
+*	End page with footer script
+*	this will execute on every end
+*
+*/
+
+echo $footer;
+
+?>
