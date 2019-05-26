@@ -465,7 +465,6 @@ $("#user-register-form").validate({
 
 /**
 *
-<<<<<<< HEAD
 *
 */
 
@@ -485,8 +484,6 @@ $("#delete-me-button").confirmation({
 
 /**
 *
-=======
->>>>>>> 1833af15b69c183c571db5cb8023f379e6e7b86f
 *	Remove user
 *	on user request
 */
@@ -688,7 +685,6 @@ $("#open-menu").click(function(e){
 
 /**
 *
-<<<<<<< HEAD
 *	Check di user already exists
 *	in database..
 *
@@ -729,8 +725,6 @@ $("input[name='username']").blur(function(){
 
 /**
 *
-=======
->>>>>>> 1833af15b69c183c571db5cb8023f379e6e7b86f
 *	END SCRIPT
 *
 **/
