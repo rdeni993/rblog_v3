@@ -39,40 +39,34 @@ echo $header;
 		</div>
 
 		<!-- Page Content -->
-		<div class="row main-profile">
-			<div class="col-sm-12">
-				<div class="row">
-					<div class="col-sm-12">
-						<br />
-						<h4>Podaci o korisniku <span class="text-muted"><?php echo $me->user_nickname; ?></span></h4>
-						<hr />
+		<div class="row main-profile v3-blog-post v3-profile">
+			<div class="col-sm-12 text-center">
+				<div class="text-center"><h1 class="v3-first-letter"><?php echo $me->user_nickname[0]; ?></h1></div>
+				<h3><span class="text-muted">Podaci o korisniku</span> <?php echo $me->user_nickname; ?></h3>
+				<br />
+				<hr />
+				<br />
+				<div class="row text-left">
+					<div class="col-sm-4 v3-data-list">
+						<h4>Osnovni podaci</h4>
+						<ul>
+							<li><b>Nadimak:</b> <?php echo $me->user_nickname; ?></li>
+							<li><b>E-mail:</b> <?php echo $me->user_email; ?></li>
+							<li><b>Vrsta naloga:</b> <?php echo $me->user_role; ?></li>
+							<li><b>Datum prijave:</b> <?php echo date("d/m/Y h:i", $me->user_doc); ?></li>
+						</ul>
 					</div>
-					<div class="col-sm-3">
-						<img src="<?php echo ER::ImgSrc( "avatars/" . $me->user_image); ?>" alt="profile_picture" class="img main_profile_picture" />
+					<div class="col-sm-4">
+						<h4>Promjena podataka</h4>						
+						<form method="post" action="<?php echo site_url('me/service_change_email'); ?>">
+							<label>New email address</label><br />
+							<input type="email" name="new_email" placeholder="email@some.thing" /><br /><br />
+							<button class="btn btn-primary">Promijeni</button>
+						</form>
 					</div>
-					<div class="col-sm-9 text-left main_user_details">
-						<p class="text-muted">nickname</p>
-						<p><strong><?php echo $me->user_nickname; ?></strong></p>
-						<p class="text-muted">email</p>
-						<p><strong><?php echo $me->user_email; ?></strong></p>
-						<p class="text-muted">user role</p>
-						<p><strong><?php echo $me->user_role; ?></strong></p>
-						<br />
-						<a id="delete-me-button" href="<?php echo site_url("me/service_delete_me"); ?>"><span class="glyphicon glyphicon-erase"></span> Obrisi moj profil</a>
-						<br /><br />
-						<a href="<?php echo site_url('message'); ?>"><span class="glyphicon glyphicon-envelope"></span> Kontakt sa administratorom</a><br /><br />
-						<a href="<?php echo site_url('me/change_email'); ?>"><span class="glyphicon glyphicon-edit"></span> Izmjeni e-mail adresu</a>
-					</div>
-					<div class="col-sm-12 text-justify">
-						<br /><hr />
-						<h4><span class="glyphicon glyphicon-warning-sign"></span> Zasto vam je potreban profil</h4>
-						<p class="text-justify">Smatram da svaki korisnik treba i mora biti upoznat sa nacinom koristenja njegovih podataka. RBLOG od korisnika zahtjeva da izradi nalog koji ce omoguciti korisniku da pristupi privatnim objavama bloga. Od korisnika se ocekuje da izradi nalog koristeci email adresu i jedinstveno korisnicko ime koje ce ga uciniti jedinstvenim.</p>
-						<p class="text-justify">Buduci da koristite e-mail nalog RBLOG se obavezuje da ce izuzetno pazljivo postupati sa vasim podacima i nece ih zloupotrebaljvati.</p>
-						<p class="text-justify">RBLOG koristi vas email iskljucivo za komunikaciju sa vama(prilikom odgovaranja na postavljena pitanja) i nece biti prikazan nikome osim administratorima Web stranice i vas.</p>
-						<p class="text-justify">RBLOG se obavezuje da nece <strong>koristiti vas email u svrhe marketinga</strong> niti ce biti prikazan ostalim korisnicima na blogu!</p>
-						<p>Vase korisnicke ime ce biti vas jedini identifikator na blogu i <strong>bice prikazan na svakoj vasoj aktivnosti koju poduzmete blogu (komentarisanje, otvaranje objava, slanja poruka ili pristupa chatu, itd!)</strong></p>
-						<p><strong>Vase podatke u svakom trenutku mozete da obrisete u potpunosti sto ce povuci sa sobom brisanje svakog traga koji ste ostavili na blogu!</strong></p>
-						<p>Ako imate bilo kakvih nejasnoca ili problema sa razumijevanjem koristenja vasih podatak obratite nam se u porukom!</p>
+					<div class="col-sm-4">
+						<h4>Aktivnost korisnika</h4>
+						<b>U pripremi</b>
 					</div>
 				</div>
 			</div>

@@ -34,7 +34,7 @@ echo $header;
 		</div>
 	</div>
 	<div class="col-sm-9 right-side">
-		<div class="row post-present">
+		<div class="row post-present v3-blog-post">
 			<?php echo $login_bar; ?>
 
 			<div class="col-sm-12 blog-posts post-view">
@@ -53,14 +53,14 @@ echo $header;
 			<?php else: ?>
 			<article>
 				<!-- Category -->
-				<div class="text-center">
-					<a href="<?php echo strtolower(site_url('category/index/' . $post->post_category )); ?>"><span class="blog-cat-label text-uppercase"><?php echo $post->post_category; ?></span></a>
+				<div class="text-center b-font">
+					<a href="<?php echo strtolower(site_url('category/index/' . $post->post_category )); ?>"><span class="text-uppercase b-font"><?php echo $post->post_category; ?></span></a>
 				</div>
 				<!-- Title -->
-				<h1 class="text-center"><?php echo $post->post_title; ?></h1>
+				<h1 class="text-center b-font"><?php echo $post->post_title; ?></h1>
 
 				<!-- About -->
-				<ul class="text-center">
+				<ul class="text-center b-font">
 					<li>Posted by <i><?php echo $post->post_author; ?></i></li>
 					<li>|</li>
 					<li>Posted on <i><?php echo date( "D, M d, Y", $post->post_date_of_change ); ?></i></li>

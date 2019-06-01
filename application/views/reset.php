@@ -41,11 +41,9 @@ echo $header;
 		<!-- Page Content -->
 		<form method="POST" action="<?php echo site_url('login/user_reset'); ?>">
 			<div class="col-sm-12 user-login-page">
-				<div class="row login-box">
-					<div class="col-sm-3 login-title"><h1>Login</h1></div>
-					<div class="col-sm-9 empty-cell">f</div>
+				<div class="row login-box  v3-login-box">
+					<div class="col-sm-12"><h1>Zatraži novu lozinku</h1></div>
 					<div class="col-sm-12 start-div">
-						<span class="glyphicon glyphicon-user"></span>
 						<input type="text" placeholder="Korisnicko ime" name="username">
 					</div>
 					<div class="col-sm-12">

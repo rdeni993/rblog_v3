@@ -1,0 +1,149 @@
+/**
+*
+*   This is rblog css file
+*   design for v3 mode
+*
+*/
+
+.v3-blog-posts article{
+    background: #fff;
+    padding: 4% 4%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #888;
+    opacity: 0.9;
+    margin: 16px 16%;
+}
+
+.v3-blog-posts article img{
+    max-height: 400px;
+    height: auto;
+}
+
+.v3-blog-posts article a{
+    color: #333;
+}
+
+.login-bar-menu{
+    display: none;
+}
+
+.v3-blog-post{
+    background: #fff;
+    opacity: 0.9;
+    border: none;
+}
+
+.v3-most-visited-posts{
+    border: none!important;
+    box-shadow: none!important;
+    padding: 16px!important;
+}
+
+.v3-most-visited-posts div article{
+    padding: 0!important;
+    margin: 10px 0!important;
+    border: none;
+    box-shadow: none;
+}
+
+.v3-login-box{
+    background: #fff;
+    opacity: .9;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 4% 4%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #888;
+}
+
+.v3-login-box input{
+    width: 100%;
+    padding: 2%;
+    margin: 16px 0;
+}
+
+.v3-login-box input[type="submit"]{
+    background: #333;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.v3-login-box a{
+    margin: 0!important;
+    padding: 0!important;
+    display: block;
+    text-align: left;
+}
+
+.alert{
+    background: rgb(196, 76, 76);
+    color: #fff;
+    padding: 6px!important;
+}
+
+.alert-success{
+    background: rgb(102, 182, 119)!important;
+}
+
+.alert span{
+    border: none!important;
+}
+
+.check a{ 
+    display: inline;
+}
+.check input{
+    width: auto;
+    vertical-align: middle;
+    margin: 0;
+}
+.check span{
+    width: auto;
+    font-size: 0.9em;
+    vertical-align: middle;
+}
+
+.v3-first-letter{
+    background: #333;
+    text-transform: uppercase;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #888;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    padding-top:  24px;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.v3-login-system article{
+    background: #fff;
+    opacity: 0.9;
+    background: #fff;
+    padding: 4% 4%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #888;
+    opacity: 0.9;
+    margin: 16px 16%;
+}
+.v3-login-system a{
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+.v3-data-list ul{
+    list-style: none;
+    margin: 16px 0;
+    padding: 0;
+}
+.v3-profile{
+    height: 100%;
+}

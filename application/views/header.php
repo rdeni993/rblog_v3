@@ -20,6 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo ER::load('node_modules/bootstrap/dist/css/bootstrap-grid.css'); ?>" />
 	<link rel="stylesheet" type="text/css" href="<?php echo ER::load('node_modules/bootstrap/dist/css/bootstrap-reboot.css'); ?>" />
 	<?php echo ER::LoadCss("basic_style") . "\n"; ?>
+	<?php echo ER::LoadCss("v3") . "\n"; ?>
 	<?php echo ER::LoadCss("m_style") . "\n"; ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />

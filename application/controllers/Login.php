@@ -66,6 +66,10 @@ class Login extends CI_Controller{
 	**/
 	public function successfull_login(){	
 
+		redirect(site_url("me"));
+
+		// V3 Skip to homepage
+
 		$this->load->model("Cat_model");
 
 		$cats = $this->Cat_model->listCats();

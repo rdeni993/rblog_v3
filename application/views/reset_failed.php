@@ -39,8 +39,8 @@ echo $header;
 		</div>
 
 		<!-- Page Content -->
-		<div class="row">
-			<div class="col-sm-12 text-center">
+		<div class="row v3-blog-post">
+			<div class="col-sm-12 text-center v3-blog-post">
 				<h4><span class="glyphicon glyphicon-ok"></span></h4>
 				<div class="alert alert-success" role="alert">
 					<p>Automatski sistem za provjeru je ustanovio da nemate pravo koristiti ovaj racun!</p>

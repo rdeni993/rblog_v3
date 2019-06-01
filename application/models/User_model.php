@@ -26,7 +26,7 @@ return $this->db->insert( "blog_users",array(
 	"user_nickname"        => $post_object['username'],
 	"user_password"        => password_hash($post_object['password'], PASSWORD_DEFAULT),
 	"user_email"		   => $post_object['email'],
-	"user_image" 		   => $post_object['avatar'],
+	"user_image" 		   => "not-set",
 	"user_role"			   => "user",
 	"user_doc"			   => time(),
 	"user_status"		   => "active"

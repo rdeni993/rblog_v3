@@ -10,7 +10,7 @@
 	</div>
 	<?php else: ?>
 	<div class="btn-group">	
-		<a class="btn btn-empty"><?php echo $_SESSION[md5("user_rblog")]->user_nickname; ?></a>
+		<a href="<?php echo site_url('me'); ?>" class="btn btn-empty"><?php echo $_SESSION[md5("user_rblog")]->user_nickname; ?></a>
 		<button class="btn">|</button>
 		<a title="Ostavite poruku administratorima!" class="btn btn-empty" href="<?php echo site_url('message'); ?>"><span class="glyphicon glyphicon-envelope"></span></a>
 		<button class="btn">|</button>
@@ -24,3 +24,4 @@
 	</div>
 	<?php endif; ?>
 </div>
+<!-- v3 version -->

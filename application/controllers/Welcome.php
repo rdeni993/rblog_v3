@@ -53,7 +53,9 @@ class Welcome extends CI_Controller {
 		// Load main menu
 		"main_menu" => $this->load->view("main_menu", array( "cats" => $cats ), true),
 
-		"posts" => $posts
+		"posts" => $posts,
+
+		"top_viewed_posts" => $this->Post_model->mostViewedPosts()
 
 	] );
 	

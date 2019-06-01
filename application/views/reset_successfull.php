@@ -39,7 +39,7 @@ echo $header;
 		</div>
 
 		<!-- Page Content -->
-		<div class="row">
+		<div class="row v3-blog-post v3-profile">
 			<div class="col-sm-12 text-center">
 				<h4><span class="glyphicon glyphicon-ok"></span></h4>
 				<div class="alert alert-success" role="alert">

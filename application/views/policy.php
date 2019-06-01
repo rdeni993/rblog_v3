@@ -39,7 +39,7 @@ echo $header;
 		</div>
 
 		<!-- Page Content -->
-		<div class="row main-profile">
+		<div class="row main-profile v3-blog-post">
 			<div class="col-sm-12">
 				<h1>Pravila o zaštiti privatnosti</h1>
 				<p>Ova stranica omogućava korisnicima uvid u način korištenja njihovih podataka koje prikupljamo na web stranici www.rblog.me</p>

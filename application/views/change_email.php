@@ -39,7 +39,7 @@ echo $header;
 		</div>
 
 		<!-- Page Content -->
-		<div class="row main-profile">
+		<div class="row main-profile v3-blog-post">
 			<div class="col-sm-12">
 				<div class="row">
 					<div class="col-sm-12">

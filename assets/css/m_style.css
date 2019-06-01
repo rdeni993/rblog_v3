@@ -27,7 +27,7 @@
 .mobile-menu{
 	position: fixed;
 	bottom: 0px;
-	background: url("../img/background.jpg");
+	background: #333;
 	background-repeat: no-repeat;
 	background-size: cover;
 	opacity: 0.97;
@@ -104,7 +104,7 @@
 	position: fixed;
 	left: 0;
 	top: 0;
-	background: url("../img/background.jpg");
+	background: url("../img/background_v3.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
@@ -125,4 +125,24 @@
 	margin: 0;
 	padding: 0;
 }
+
+/* Version 3 */
+.v3-blog-posts article{
+	margin: 8px 0%;
+	box-shadow: none;
+}
+.v3-blog-posts{
+	margin: 0;
+	padding: 0;
+}
+.v3-most-visited-posts div article{
+	margin: 30px 0px!important;
+	border-bottom: #333 1px solid;
+	border-radius: 0;
+}
+.v3-login-box{
+	margin:0;
+	width: 100%;
+}
+
 }
